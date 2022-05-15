@@ -1,0 +1,50 @@
+.logo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  
+  display: flex;
+  align-items: center;
+
+  color: #1528d8;
+
+  opacity: 0.8;
+}
+
+.app__navbar{
+  padding: 2rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+
+}
+
+.logo__links li{
+  display: inline-block;
+  padding: 0 2.8rem;
+  transition: all 0.3s ease 0s;
+
+}
+
+.logo__links li:hover{
+  color: #1528d8;
+  transition: all 0.3s ease 0s;
+
+}
+
+@media screen and (max-width: 2000px) {
+ 
+}
+@media screen and (max-width: 650px) {
+  .app__navbar{
+    padding: 2rem 5rem;
+  }
+
+  .logo__links{
+    display: none;
+  }
+}
