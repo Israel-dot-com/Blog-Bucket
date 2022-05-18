@@ -1,10 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import { addDoc, collection } from "firebase/firestore";
 import "./post.css";
 import { db } from "../../firebase";
 
 function Post() {
-    const [Name, setName] = useState(second)
+    const [Name, setName] = useState("")
     const [Caption, setCaption] = useState("")
     const [postText, setpostText] = useState("")
 
@@ -34,7 +34,7 @@ function Post() {
           </div>
 
           <div className="buttondiv">
-              <button className="custom__button">
+              <button onClick={createPost} className="custom__button">
                   Post
               </button>
           </div>
