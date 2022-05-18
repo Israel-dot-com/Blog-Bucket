@@ -1,0 +1,24 @@
+.formtext{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.blog__post{
+    
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+}
+
+.custom__button{
+    
+background: #1528D8;
+border-radius: 13px;
+width: 83px;
+height: 27px;
+}
+
+.buttondiv{
+    text-align: center;
+
+}
