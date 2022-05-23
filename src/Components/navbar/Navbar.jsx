@@ -9,12 +9,12 @@ function Navbar() {
         </div>
         <div className="logo__links">
             <ul>
-                <li> <a href='#nav'>Home</a> </li>
-                <li> <a href='#nav'>Blog</a> </li>
-                <li> <a href='#nav'>Login</a> </li>
+                <li> <a href="www.google.com">Home</a> </li>
+                <li> <a href="www.google.com">Blog</a> </li>
+                <li> <a href="www.google.com">Login</a> </li>
             </ul>
         </div>
-        <a className='button'></a>
+        <a href="www.google.com" className='button'>...</a>
     </div>
   )
 }
